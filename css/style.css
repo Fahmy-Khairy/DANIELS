@@ -1,0 +1,479 @@
+:root {
+  --main-color: #343434;
+  --bg-main-color: #f7f7f7;
+  --bg-secondary-color: #5b5b5b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-padding-top: 70px;
+}
+.main-bg-color {
+  background-color: var(--bg-main-color);
+}
+.main-color {
+  color: var(--main-color);
+}
+.secondary-bg-color {
+  background-color: var(--main-color);
+}
+.width-500 {
+  width: 900px;
+}
+
+/* start nav */
+.navbar .collapse a.nav-link {
+  color: #fff;
+  padding: 0px;
+  font-size: 14px;
+}
+.navbar .collapse a.active {
+  position: relative;
+  width: fit-content;
+}
+.navbar .collapse a.active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  bottom: 0px;
+  left: 0px;
+}
+/* end nav */
+/* start header */
+#Home.my-bgImage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5) 0% 100%),
+    url(../images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#Home h2 {
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 800;
+}
+#Home h1 {
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 200;
+}
+#Home h1::after {
+  content: "";
+  font-weight: bolder;
+  animation: Typing infinite alternate 7s ease-out;
+}
+@keyframes Typing {
+  0% {
+    content: "|";
+  }
+  2% {
+    content: "L|";
+  }
+  4% {
+    content: "La|";
+  }
+  6% {
+    content: "Lar|";
+  }
+  8% {
+    content: "Larr|";
+  }
+  10% {
+    content: "Larry|";
+  }
+  12% {
+    content: "Larry |";
+  }
+  14% {
+    content: "Larry D|";
+  }
+  16% {
+    content: "Larry Da|";
+  }
+  18% {
+    content: "Larry Dan|";
+  }
+  20% {
+    content: "Larry Dani|";
+  }
+  22% {
+    content: "Larry Danie|";
+  }
+  24% {
+    content: "Larry Daniel|";
+  }
+  26% {
+    content: "Larry Daniels|";
+  }
+  28% {
+    content: "Larry Daniel|";
+  }
+  30% {
+    content: "Larry Danie|";
+  }
+  32% {
+    content: "Larry Dani|";
+  }
+  34% {
+    content: "Larry Dan|";
+  }
+  36% {
+    content: "Larry Da|";
+  }
+  38% {
+    content: "Larry D|";
+  }
+  40% {
+    content: "Larry |";
+  }
+  42% {
+    content: "Larry|";
+  }
+  44% {
+    content: "Larr|";
+  }
+  46% {
+    content: "Lar|";
+  }
+  48% {
+    content: "La|";
+  }
+  50% {
+    content: "L|";
+  }
+  52% {
+    content: "|";
+  }
+  54% {
+    content: "D|";
+  }
+  56% {
+    content: "De|";
+  }
+  58% {
+    content: "Dev|";
+  }
+  60% {
+    content: "Deve|";
+  }
+  62% {
+    content: "Devel|";
+  }
+  64% {
+    content: "Develo|";
+  }
+  66% {
+    content: "Develop|";
+  }
+  68% {
+    content: "Develope|";
+  }
+  68% {
+    content: "Developer|";
+  }
+  70% {
+    content: "Develope|";
+  }
+  72% {
+    content: "Develop|";
+  }
+  74% {
+    content: "Develo|";
+  }
+  76% {
+    content: "Devel|";
+  }
+  78% {
+    content: "Deve|";
+  }
+  80% {
+    content: "Dev|";
+  }
+  82% {
+    content: "De|";
+  }
+  83% {
+    content: "D|";
+  }
+  84% {
+    content: "|";
+  }
+  85% {
+    content: "D|";
+  }
+  86% {
+    content: "De|";
+  }
+  87% {
+    content: "Des|";
+  }
+  88% {
+    content: "Desi|";
+  }
+  89% {
+    content: "Desig|";
+  }
+  90% {
+    content: "Design|";
+  }
+  91% {
+    content: "Designe|";
+  }
+  92% {
+    content: "Designer|";
+  }
+  93% {
+    content: "Designe|";
+  }
+  94% {
+    content: "Design|";
+  }
+  95% {
+    content: "Desig|";
+  }
+  96% {
+    content: "Desi|";
+  }
+  97% {
+    content: "Des|";
+  }
+  98% {
+    content: "De|";
+  }
+  99% {
+    content: "D|";
+  }
+  100% {
+    content: "|";
+  }
+}
+
+#Home .my-icon li {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(0, 0, 0, 0.3);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+/* end header */
+
+/* start 1 */
+
+.progress {
+  height: 1.5rem;
+  align-content: center;
+}
+#About .my-image {
+  position: relative;
+}
+#About .my-image::after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  background-image: url(../images/dots.png);
+  bottom: 0px;
+  left: 0px;
+  transform: translateY(-48px);
+  z-index: -1;
+}
+
+#About .content button {
+  background-color: black;
+  color: white;
+  transition: all 0.5s;
+}
+#About .content button:hover {
+  background-color: #fff;
+  color: black;
+  border: black solid 1px;
+}
+#About .content a {
+  transition: all 0.5s;
+}
+#About .content a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* end 1 */
+
+/* start 2 */
+h2.my-layer {
+  position: relative;
+}
+h2.my-layer::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background-image: url(../images/dots.png);
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  bottom: -10px;
+  left: 0px;
+}
+/* #Services .content{
+  box-shadow: 0px 0px 2px ;
+} */
+#Services .my-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+#Services .content:hover .my-icon {
+  background-color: black;
+  color: #fff;
+}
+/* end 2 */
+/* start 3 */
+#Works button.nav-link {
+  color: black;
+  font-weight: bold;
+}
+#Works button.nav-link.active {
+  position: relative;
+  /* width: fit-content;  */
+}
+#Works button.nav-link.active::after {
+  content: "";
+  position: absolute;
+  width: calc(100% - 2rem);
+  height: 3px;
+  background-color: black;
+  bottom: 0px;
+  left: calc(0px + 1rem);
+}
+#Works .layer {
+  background-color: rgb(255, 255, 255);
+  left: 5px;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+  opacity: 0;
+  transition: all 0.7s;
+}
+
+#Works .my-image:hover .layer {
+  opacity: 1;
+}
+#Works .layer .icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+  color: #fff;
+  transition: all 0.5s;
+  border: black solid 1px;
+  cursor: pointer;
+}
+
+#Works .layer .icon:hover {
+  background-color: white;
+  color: black;
+}
+
+/* end 3 */
+
+/* strat 4 */
+
+#Clients .carousel-item img {
+  width: 100px;
+  height: 100px;
+}
+#Clients .carousel-item p {
+  font-size: 15px;
+}
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--bg-secondary-color);
+}
+/* end 4 */
+
+/* start 5 */
+#Team .my-image .layer li {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #fff;
+}
+#Team .my-image .layer {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  left: 5px;
+  bottom: 5px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: rotateY(180deg) scale(0.5, 0.5);
+  transition: all 0.5s;
+}
+#Team .col-md-6.col-lg-4:hover .layer {
+  opacity: 1;
+  transform: rotateY(0deg) scale(1, 1);
+}
+#Team .my-image img {
+  transition: all 0.5s;
+}
+#Team .col-md-6.col-lg-4:hover img {
+  transform: scale(1.1, 1.1);
+}
+/* end 5 */
+
+/* start 6 */
+
+#Contact .icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: var(--bg-main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  margin-bottom: 20px;
+}
+#Contact .inner:hover .icon {
+  background-color: black;
+  color: #fff;
+}
+#Contact .btn-dark {
+  width: fit-content;
+  padding: 10px 40px;
+  background-color: black;
+  transition: all 1s;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+#Contact .btn-dark:hover {
+  background-color: #fff;
+  color: black;
+}
+/* end 6 */
